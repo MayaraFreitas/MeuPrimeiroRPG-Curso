@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f87c0b3c266f003428f3eb912fb545fd, type: 3}
+  m_Name: NPC_1
+  m_EditorClassIdentifier: 
+  actor: {fileID: 82692161660068361, guid: c1cbad381c5b12a47b23d2d9d235fd61, type: 3}
+  speakerSprite: {fileID: 0}
+  sentence: 
+  dialogues:
+  - actorname: "Mo\xE7a"
+    profile: {fileID: -8091321643688609963, guid: ad0883918e4daae4cbab07fb62f421df, type: 3}
+    sentence:
+      potuguese: "Ol\xE1, Amigo!"
+      english: Hello friend!
+      spanish: "\xA1Hola amigo!"
+  - actorname: "Voc\xEA"
+    profile: {fileID: 0}
+    sentence:
+      potuguese: Heey! Como vai?
+      english: Hey! How are you?
+      spanish: "\xA1Oye! \xBFC\xF3mo est\xE1s?"
+  - actorname: "Mo\xE7a"
+    profile: {fileID: 0}
+    sentence:
+      potuguese: Nada bem :(
+      english: Not good :(
+      spanish: Nada bien :(
+  - actorname: "Voc\xEA"
+    profile: {fileID: 0}
+    sentence:
+      potuguese: Poxa! O que aconteceu?
+      english: Damn! What happened?
+      spanish: "\xA1Maldita sea! \xBFQu\xE9 sucedi\xF3?"
